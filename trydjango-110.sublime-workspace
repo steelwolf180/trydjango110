@@ -1,0 +1,279 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"c",
+				"choice"
+			],
+			[
+				"ran",
+				"random"
+			],
+			[
+				"da",
+				"DateTimeField"
+			],
+			[
+				"de",
+				"description"
+			],
+			[
+				"tend",
+				"tender-description"
+			],
+			[
+				"quote_",
+				"quote_title"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"pro",
+				"process"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/shortener/models.py",
+			"settings":
+			{
+				"buffer_size": 1251,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 588.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 588.0
+	},
+	"console":
+	{
+		"height": 186.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Projects/trydjango110",
+		"/C/Projects/trydjango110/src",
+		"/C/Projects/trydjango110/src/kirr",
+		"/C/Projects/trydjango110/src/kirr/__pycache__",
+		"/C/Projects/trydjango110/src/shortener",
+		"/C/Projects/trydjango110/src/shortener/migrations"
+	],
+	"file_history":
+	[
+		"/C/Projects/trydjango110/src/shortener/admin.py",
+		"/C/Projects/trydjango110/src/kirr/settings.py",
+		"/C/Projects/trydjango110/src/shortener/migrations/0001_initial.py",
+		"/C/Projects/trydjango110/src/shortener/migrations/0002_kirrurl_shortcode.py",
+		"/C/Projects/web_spider/tutorial/tutorial/spiders/quotes_spider2.py",
+		"/C/Projects/web_spider/tutorial/tutorial/spiders/quotes_spider.py",
+		"/C/Projects/web_spider/tutorial/tenders.jl",
+		"/C/Projects/web_spider/tutorial/tutorial/GeBiz_xpath_selector.txt",
+		"/C/Projects/web_spider/tutorial/tenders.json",
+		"/C/Projects/web_spider/tutorial/tutorial/tenders.json",
+		"/C/Projects/web_spider/tutorial/tutorial/settings.py",
+		"/C/Projects/web_spider/tutorial/quotes-singapore.startups-list.com.html",
+		"/C/Projects/web_spider/tutorial/tutorial/spiders/example.py",
+		"/C/Projects/web_spider/tutorial/tutorial/quotes.jl",
+		"/C/Projects/web_spider/tutorial/tutorial/quotes.json",
+		"/C/Projects/quotesbot/quotesbot/spiders/toscrape-css.py",
+		"/C/Projects/quotesbot/quotesbot/spiders/toscrape-xpath.py",
+		"/C/Projects/quotesbot/quotes.json",
+		"/C/Users/steel/Downloads/Diagnostics with comments/Activpass.numbers",
+		"/C/Users/steel/Downloads/Diagnostics with comments/3DTAYO.numbers",
+		"/C/Users/steel/Desktop/node-wit/lib/wit.js",
+		"/C/Users/steel/Desktop/node-wit/lib/log.js",
+		"/C/Users/steel/Desktop/node-wit/lib/interactive.js",
+		"/C/Users/steel/Desktop/node-wit/lib/config.js",
+		"/C/Users/steel/Desktop/node-wit/index.js",
+		"/C/Users/steel/Desktop/Wit-Facebook/bot.js",
+		"/C/Users/steel/node-js-getting-started/package.json",
+		"/C/Users/steel/node-js-getting-started/index.js",
+		"/C/Users/steel/Desktop/node-wit/examples/quickstart.js",
+		"/C/Users/steel/Desktop/Wit-Facebook/README.md",
+		"/C/Users/steel/Desktop/testing.py"
+	],
+	"find":
+	{
+		"height": 50.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"DEBUG",
+			"tender",
+			"tender description",
+			"token",
+			"Database"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/shortener/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1251,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								157,
+								157
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "trydjango-110.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 401.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
