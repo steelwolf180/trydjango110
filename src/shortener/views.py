@@ -2,23 +2,40 @@ from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render, get_object_or_404
 from django.views import View
 
+from .forms import SubmitURLForm
 from .models import KirrURL
 
 # Create your views here.
-def test_view(request):
-	return HttpResponse("some stuff")
 
-def kirr_redirect_view(request, shortcode=None, *args, **kwargs): #function based view FBV
-	obj = get_object_or_404(KirrURL, shortcode=shortcode)
-	return HttpResponseRedirect(obj.url)
+def home_view_fbv(request, *args, **kwargs):
+	if request.method == "POST":
+		print(request.POST)
+	return render(request, "shortener/home.html", {})
+
+class HomeView(View):
+	def get(self, request, *args, **kwargs):
+		the_form = SubmitURLForm()
+		context = {
+			"title": "Kirr.co",
+			"form": the_form
+		}
+		return render(request, "shortener/home.html", context) #Try Django 1.8 & 1.9 http://joincfe.com/youtube
+
+	def post(self, request, *args, **kwargs):
+		form = SubmitURLForm(request.POST)
+		if form.is_valid():
+			print(form.cleaned_data)
+		
+		context = {
+			"title": "Kirr.co",
+			"form": form
+		}
+		return render(request, "shortener/home.html", context)
 
 class KirrCBView(View):#class based view CBV
 	def get(self, request, shortcode=None, *args, **kwargs):
 		obj = get_object_or_404(KirrURL, shortcode=shortcode)
 		return HttpResponseRedirect(obj.url)
-
-	def post(self, request, *args, **kwargs):
-		return HttpResponse()
 
 '''
 def kirr_redirect_view(request, shortcode=None, *args, **kwargs): #function based view FBV

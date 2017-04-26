@@ -25,7 +25,7 @@ SECRET_KEY = '8yda%-4j2t=(k62q@*w*l&)^unqpqohqs&b78+)47mzw_uo0mw'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['tirr.com', 'www.tirr.com', 'www.kirr.co', 'kirr.co']
+ALLOWED_HOSTS = ['localhost','tirr.com', 'www.tirr.com', 'www.kirr.co', 'kirr.co']
 
 
 # Application definition
@@ -65,7 +65,7 @@ DEFAULT_REDRIECT_URL =  "http://www.tirr.com:8000" #kirr.co
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, "templates")],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
