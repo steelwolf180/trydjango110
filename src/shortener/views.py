@@ -17,9 +17,11 @@ def home_view_fbv(request, *args, **kwargs):
 class HomeView(View):
 	def get(self, request, *args, **kwargs):
 		the_form = SubmitURLForm()
+		bg_image = 'http://eskipaper.com/images/forest-background-5.jpg'
 		context = {
 			"title": "Kirr.co",
-			"form": the_form
+			"form": the_form,
+			"bg_image": bg_image,
 		}
 		return render(request, "shortener/home.html", context) #Try Django 1.8 & 1.9 http://joincfe.com/youtube
 

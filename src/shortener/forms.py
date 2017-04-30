@@ -14,6 +14,12 @@ class SubmitURLForm(forms.Form):
 			)
 		)
 
+	def clean_url(self):
+		url = self.clean.cleaned_data['url']
+		if "http" in url:
+			return url
+		return 'http://' + url
+
 	# def clean(self):
 	# 	cleaned_data = super(SubmitURLForm, self,).clean()
 	# 	print(cleaned_data)
